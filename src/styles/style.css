@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #293b5f;
+}
+nav a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffff;
+}
+
+/* Poster Report */
+.poster-report {
+  margin: 40px 0 40px 0;
+}
+
+.poster-report img {
+  width: 1000px;
+  height: 580px;
+}
+
+/* Global Situation */
+.global-situation {
+  padding: 25px 0;
+}
+.global-situation h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.global-situation p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.global-situation .col-lg-4.col-md-6.col-sm-12:nth-child(1) .card {
+  background-color: #2541b2 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.global-situation .col-lg-4.col-md-6.col-sm-12:nth-child(2) .card {
+  background-color: #289672 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.global-situation .col-lg-4.col-md-6.col-sm-12:nth-child(3) .card {
+  background-color: #bd2000 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.global-situation .card {
+  border-radius: 20px !important;
+  color: #ffff !important;
+  height: 150px;
+}
+
+.global-situation .card h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.global-situation .card p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.global-situation .card p > span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.global-situation .icon {
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  z-index: 0;
+  font-size: 110px;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+/* Country Situation */
+.country-situation {
+  padding: 50px 0;
+}
+.country-situation h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.country-situation p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#listCountry h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}
+#listCountry p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+#listCountry p > span {
+  font-weight: normal;
+}
+#listCountry .card{
+  filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+}
